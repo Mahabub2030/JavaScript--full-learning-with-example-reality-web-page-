@@ -31,6 +31,8 @@ A beginner-friendly and interactive **JavaScript Learning Web Page** that teache
 - Email sent/received status	isEmailSent, hasUnreadMessages
 
 
+
+
 ## 📂 Project Structure
 
 
