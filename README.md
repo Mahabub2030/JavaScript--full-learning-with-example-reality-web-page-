@@ -18,6 +18,17 @@ A beginner-friendly and interactive **JavaScript Learning Web Page** that teache
 - 🌓 Light/Dark Mode
 
 ---
+# When to Use Boolean?
+
+-Situation	Boolean Use Example
+-Login/Logout system	isLoggedIn
+-Feature toggle (dark mode)	isDarkMode
+-Product in stock or not	isAvailable
+-Form validation status	isValid
+-Permission check (admin/user)	isAdmin, hasPermission
+-Game state (paused, started)	isGameOver, isPlaying
+-Email sent/received status	isEmailSent, hasUnreadMessages
+
 
 ## 📂 Project Structure
 

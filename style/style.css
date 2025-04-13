@@ -1,0 +1,25 @@
+/* You can skip this file if you use Tailwind only */
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 1200px;
+  background: #fff;
+  color: #5C5C5C;
+}
+span{
+    color: #000;
+}
+#Search {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    padding: 10px;
+}
+p{
+    background: #000;
+    padding: 0%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+}
