@@ -45,6 +45,21 @@ A beginner-friendly and interactive **JavaScript Learning Web Page** that teache
 - In multiplayer games, track game status: isGameOver, isPlayerTurn, isOnline, etc.
 
 
+## ⚙️ What is a Function in JavaScript?
+*A function is a block of code that runs only when you call it. It helps you:*
+
+- Reuse code
+- Organize logic
+- Make your code clean and readable
+
+✅ *Why and When Should You Use Functions?*
+- Situation	Why Use a Function?
+- Repeating tasks	Avoid writing the same code again & again
+- Splitting code into pieces	Easier to read and manage
+- Handling inputs & outputs	Great for calculations, logic, conditions
+- Making decisions (game, UI, etc)	Keep logic clea
+
+
 ## 📂 Project Structure
 
 

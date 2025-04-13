@@ -8,22 +8,116 @@
   <body>
     <h1>🧩 JavaScript Example: Rock, Paper, Scissors</h1>
     <p>Roke Pepar scissors</p>
+    <script>
+      /*
+    if(0){
+        console.log('truty')
+    }
+    const cartQuantity = 5;
+    if(cartQuantity){
+        console.log('cart has producst')
+    } else{
+        console.log('border')
+        console.log(!0)
+    }
+    */
+      const result = 5 ? "truthy" : "falsy";
+      console.log(result);
+      console.log(0);
 
-    <button
+      const message = 5 && 'hello';
+      const messages = 0 || 'hello';
+      console.log(message,messages)
+
+      const currency = 'ERU' || 'USD';
+      console.log(currency)
+    </script>
+    <!-- <button
       onclick="
       const randomNumber= Math.random()
 
-
-      if(randomNumber >= 0 ||   randomNumber < 1/3 ){
-        console.log('you can added ')
-
+     let  coumputerMove = '';
+      if(randomNumber >= 0 &&    randomNumber < 1/3 ){
+        coumputerMove = 'rock';
+      } else if( randomNumber >= 1 /3 && randomNumber < 2 /3 ){
+        coumputerMove = 'paper';
+      }else if( randomNumber >= 2/3 && randomNumber < 1 ){
+       coumputerMove = 'scissors'
       }
+    //   console.log(coumputerMove)
+
+      let result = '';
+
+      if( coumputerMove === 'rock'){
+        result ='tite .'
+      }else if( coumputerMove ==='paper'){
+        result = 'you are los'
+      } else if(coumputerMove ==='scissors'){
+        result = 'you are win'
+      }
+
+      alert( `you picked rock, computer picked ${coumputerMove}. ${result}`)
     "
     >
       Rock
     </button>
 
-    <button>Paper</button>
-    <button>Scissors</button>
+    <button onclick="
+     const randomNumber= Math.random()
+
+     let  coumputerMove = '';
+      if(randomNumber >= 0 &&    randomNumber < 1/3 ){
+        coumputerMove = 'rock';
+      } else if( randomNumber >= 1 /3 && randomNumber < 2 /3 ){
+        coumputerMove = 'paper';
+      }else if( randomNumber >= 2/3 && randomNumber < 1 ){
+       coumputerMove = 'scissors'
+      }
+    //   console.log(coumputerMove)
+
+      let result = '';
+
+      if( coumputerMove === 'rock'){
+        result ='win .'
+      }else if( coumputerMove ==='paper'){
+        result = 'you  tit'
+      } else if(coumputerMove ==='scissors'){
+        result = 'you are los'
+      }
+
+      alert( `you picked rock, computer picked ${coumputerMove}. ${result}`)
+    "
+    
+    "
+    
+    >Paper</button>
+    <button onclick="
+     const randomNumber= Math.random()
+
+     let  coumputerMove = '';
+      if(randomNumber >= 0 &&    randomNumber < 1/3 ){
+        coumputerMove = 'rock';
+      } else if( randomNumber >= 1 /3 && randomNumber < 2 /3 ){
+        coumputerMove = 'paper';
+      }else if( randomNumber >= 2/3 && randomNumber < 1 ){
+       coumputerMove = 'scissors'
+      }
+    //   console.log(coumputerMove)
+
+      let result = '';
+
+      if( coumputerMove === 'rock'){
+        result ='win .'
+      }else if( coumputerMove ==='paper'){
+        result = 'you los'
+      } else if(coumputerMove ==='scissors'){
+        result = 'you are title'
+      }
+
+      alert( `you picked rock, computer picked ${coumputerMove}. ${result}`)
+    "
+    "
+    >Scissors</button>
+    */ -->
   </body>
 </html>
