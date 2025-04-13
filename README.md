@@ -62,18 +62,18 @@ A beginner-friendly and interactive **JavaScript Learning Web Page** that teache
 - Making decisions (game, UI, etc)	Keep logic clea
 
 # 🔥Real-Life Examples
-📦 1. Calculate Total Price in Shopping Cart
-🔐 2. Login Validator
-🧠 3. Check Even or Odd Number
-🎮 4. Game: Is Winner
-⏱ 5. Show Welcome Message Based on Time
+- 📦 1. Calculate Total Price in Shopping Cart
+- 🔐 2. Login Validator
+- 🧠 3. Check Even or Odd Number
+- 🎮 4. Game: Is Winner
+- ⏱ 5. Show Welcome Message Based on Time
 
-🔧 Best Practices
-✅ Use descriptive names
-✅ Use parameters for flexible logic
-✅ Use return to get values back
-✅ Keep functions short and focused
-✅ Use arrow functions for simple callbacks or one-liners
+# 🔧 Best Practices
+- ✅ Use descriptive names
+- ✅ Use parameters for flexible logic
+- ✅ Use return to get values back
+- ✅ Keep functions short and focused
+- ✅ Use arrow functions for simple callbacks or one-liners
 ---------------------------------------------------------------------------------
 
 
