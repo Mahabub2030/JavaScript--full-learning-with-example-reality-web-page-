@@ -18,7 +18,7 @@ A beginner-friendly and interactive **JavaScript Learning Web Page** that teache
 - 🌓 Light/Dark Mode
 
 ---
-## 🎯 When to Use Boolean?
+## 🔁 When to Use Boolean?
 
 *Situation	Boolean Use Example*
 
