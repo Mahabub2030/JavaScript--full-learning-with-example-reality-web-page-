@@ -7,15 +7,14 @@
   </head>
   <body>
     <script>
-        let isSeatAvailable = true;
-        let isPaymentSuccessful = false;
+      let isSeatAvailable = true;
+      let isPaymentSuccessful = false;
 
-        if (isSeatAvailable && isPaymentSuccessful) {
-          console.log("✅ Ticket booked!");
-        } else {
-          console.log("❌ Booking failed.");
-        }
-
+      if (isSeatAvailable && isPaymentSuccessful) {
+        console.log("✅ Ticket booked!");
+      } else {
+        console.log("❌ Booking failed.");
+      }
 
       let isEmailValid = false;
       let isPasswordValid = true;
@@ -26,8 +25,6 @@
         console.log("❌ Please fix the errors.");
       }
 
-
-      
       let isUserLoggedIn = true;
 
       function login(username, password) {
@@ -41,6 +38,30 @@
 
       login("cusomert", "12345"); // Login successful!
       console.log(isUserLoggedIn); // true
+
+      //   🌍 Real-Life Example 2: Online Store - Product In Stock
+      let isInStock = true;
+
+      function buyProduct() {
+        if (isInStock) {
+          console.log("✅ Product added to cart.");
+        } else {
+          console.log("❌ Product out of stock.");
+        }
+      }
+
+      buyProduct(); // ✅ Product added to cart
+
+      //   🌍 Real-Life Example 3: Dark Mode Toggle
+      let isDarkMode = false;
+
+      function toggleDarkMode() {
+        isDarkMode = !isDarkMode;
+        console.log("Dark Mode is now " + (isDarkMode ? "ON" : "OFF"));
+      }
+
+      toggleDarkMode(); // ON
+      toggleDarkMode(); // OFF
     </script>
   </body>
 </html>
