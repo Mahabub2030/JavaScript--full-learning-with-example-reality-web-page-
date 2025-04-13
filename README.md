@@ -76,6 +76,51 @@ A beginner-friendly and interactive **JavaScript Learning Web Page** that teache
 - ✅ Use arrow functions for simple callbacks or one-liners
 ---------------------------------------------------------------------------------
 
+# ✅ What is a Parameter in JavaScript?
+*A parameter is a placeholder used in a function to receive values (called arguments) when the function is called.*
+
+- 🧠 Think of it like this:
+- Parameter = blank field in a form
+- Argument = what you type into the field
+
+# 🔥 Real-Life Examples with Parameters
+- 🛒 1. Shopping Total (price × quantity)
+- 💡 2. Electricity Bill Calculator
+- 📚 3. Student Grade Calculator
+- 🧮 4. Add Two Numbers
+- 📧 5. Send Email Message
+
+# 📘 JavaScript Function Parameters Guide
+
+This guide provides practical insights on how and **when to use function parameters** in JavaScript with real-life use cases. Parameters make your code dynamic, reusable, and easier to maintain.
+
+---
+
+## 🔄 When Should You Use Parameters?
+
+| **Situation**                        | **Example**                          | **Description**                                                                 |
+|-------------------------------------|--------------------------------------|---------------------------------------------------------------------------------|
+| **Dynamic values**                  | `greet(name)`                        | To greet or customize messages for different users                             |
+| **User input**                      | `calculateTotal(price, quantity)`   | To calculate totals or outputs based on user-entered values                    |
+| **API responses**                   | `handleData(response)`              | To process and display data received from APIs dynamically                     |
+| **Reusable logic**                  | `convert(temp, scale)`              | To reuse the same function logic for multiple input types                      |
+| **Any repeated task with variables**| `printBill(name, total)`            | To automate creating tables or records with changing data like bills or orders |
+
+---
+
+## 📌 Example
+
+```javascript
+function printBill(name, total) {
+  console.log(`Customer: ${name}, Total Bill: ${total} Tk`);
+}
+
+printBill("Sami", 1200);
+
+
+
+
+
 
 
 
