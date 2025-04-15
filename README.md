@@ -119,7 +119,7 @@ This guide provides practical insights on how and **when to use function paramet
 
 - 💻 Examples (basic to advanced)
 
-🔧 Real-life project examples
+- 🔧 Real-life project examples
 
 ## ✅ 1. What is a Function in JavaScript?
 
