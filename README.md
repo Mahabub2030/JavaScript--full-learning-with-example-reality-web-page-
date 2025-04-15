@@ -115,7 +115,7 @@ This guide provides practical insights on how and **when to use function paramet
 
 - ⏰ When to use them
 
- -💡 Types of functions
+- 💡 Types of functions
 
 - 💻 Examples (basic to advanced)
 
