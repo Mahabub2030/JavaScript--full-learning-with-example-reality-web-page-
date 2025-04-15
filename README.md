@@ -281,19 +281,6 @@ function openImage(imgSrc) {
 Use: When a user clicks on an image, call this function to open it in a modal.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function printBill(name, total) {
   console.log(`Customer: ${name}, Total Bill: ${total} Tk`);
 }
