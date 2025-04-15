@@ -22,7 +22,7 @@
     ">Scissors</button>
 
   <script>
-    /*
+   
       function playGame(playerMove) {
         const computerMove = pickComputerMove();
 
@@ -74,12 +74,13 @@
 
         return computerMove;
       }
-      */
+      
 
-      function calculateText(cosnt){
+      function calculateText(cosnt, textPercent = 0.1){
+        console.log(cosnt * textPercent)
         console.log(cosnt * 0.1);
       }
-      calculateText(2000)
+      calculateText(2000, 0.2)
       calculateText(3000)
     </script>
   </body>
