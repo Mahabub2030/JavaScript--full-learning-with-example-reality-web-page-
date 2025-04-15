@@ -118,12 +118,23 @@ function printBill(name, total) {
 printBill("Sami", 1200);
 
 
+## Function_in_JavaScript
+
+- ✅ What functions are
+
+- 🧠 Why we use them
+
+- ⏰ When to use them
+
+ -💡 Types of functions
+
+- 💻 Examples (basic to advanced)
+
+🔧 Real-life project examples
 
 
 
 
-
-
-## 📂 Project Structure
+📂Project Structure
 
 
